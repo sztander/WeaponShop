@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sztander\\source\\repos\\WeaponShop\\WeaponShop.csproj": {}
+    "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponShop\\WeaponShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sztander\\source\\repos\\WeaponShop\\WeaponShop.csproj": {
+    "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponShop\\WeaponShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sztander\\source\\repos\\WeaponShop\\WeaponShop.csproj",
+        "projectUniqueName": "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponShop\\WeaponShop.csproj",
         "projectName": "WeaponShop",
-        "projectPath": "C:\\Users\\sztander\\source\\repos\\WeaponShop\\WeaponShop.csproj",
+        "projectPath": "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponShop\\WeaponShop.csproj",
         "packagesPath": "C:\\Users\\sztander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sztander\\source\\repos\\WeaponShop\\obj\\",
+        "outputPath": "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",

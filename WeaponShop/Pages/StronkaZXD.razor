@@ -1,175 +1,64 @@
 ﻿@page "/StronkaXD"
 
-<div id="Web_1920___1">
-    <svg class="Rectangle_45">
-        <rect fill="rgba(13,11,24,1)" id="Rectangle_45" rx="0" ry="0" x="0" y="0" width="1153" height="75">
-        </rect>
-    </svg>
-    <svg class="Rectangle_14">
-        <rect fill="rgba(255,230,0,0.702)" id="Rectangle_14" rx="0" ry="0" x="0" y="0" width="51" height="43">
-        </rect>
-    </svg>
-    <svg class="Rectangle_15">
-        <rect fill="rgba(47,45,67,1)" id="Rectangle_15" rx="42" ry="42" x="0" y="0" width="292" height="262">
-        </rect>
-    </svg>
-    <svg class="Rectangle_1">
-        <rect fill="rgba(13,11,24,1)" id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="303" height="1080">
-        </rect>
-    </svg>
-    <svg class="Rectangle_3">
-        <rect fill="rgba(46,44,120,1)" id="Rectangle_3" rx="23" ry="23" x="0" y="0" width="238" height="126">
-        </rect>
-    </svg>
-    <svg class="Rectangle_2">
-        <rect fill="rgba(13,11,24,1)" id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="464" height="1080">
-        </rect>
-    </svg>
-    <div id="Subheader">
-        <div id="Products">
-            <span>Products</span>
+<div class="container-fluid p-0">
+    <div class="row">
+        <div class="col-8 p-10" style="padding-left:25px;padding-top:10px">
+            <div class="card-deck pb-5">
+                @for (int i = 0; i < 3; i++)
+                {
+                    <div class="card bg-dark text-center">
+                        <img class="card-img-top" src="@guns[i].ImageUrl">
+                        <div class="card-body">
+                            <h5 class="card-title text-white">@guns[i].Name:   @guns[i].Cost$</h5>
+                            <a href="#" class="btn btn-warning">Add</a>
+                            <a href="#" class="btn btn-info">Info</a>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="card-deck pb-5">
+                @for (int i = 3; i < 6; i++)
+                {
+                    <div class="card bg-dark text-center">
+                        <img class="card-img-top" src="@guns[i].ImageUrl">
+                        <div class="card-body">
+                            <h5 class="card-title text-white">@guns[i].Name:   @guns[i].Cost$</h5>
+                            <a href="#" class="btn btn-warning">Add</a>
+                            <a href="#" class="btn btn-info">Info</a>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="card-deck pb-5">
+                @for (int i = 6; i < 9; i++)
+                {
+                    <div class="card bg-dark text-center">
+                        <img class="card-img-top" src="@guns[i].ImageUrl">
+                        <div class="card-body">
+                            <h5 class="card-title text-white">@guns[i].Name:   @guns[i].Cost$</h5>
+                            <a href="#" class="btn btn-warning">Add</a>
+                            <a href="#" class="btn btn-info">Info</a>
+                        </div>
+                    </div>
+                }
+            </div>
         </div>
-    </div>
-    <div id="Subheader_A0_Group_2">
-        <div id="Orders">
-            <span>Orders</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_3">
-        <div id="Wallet">
-            <span>Wallet</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_4">
-        <div id="Balance">
-            <span>Balance</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_5">
-        <div id="ID323_5_">
-            <span>323,5$</span>
-        </div>
-    </div>
-    <svg class="Rectangle_4">
-        <rect fill="rgba(52,49,149,1)" id="Rectangle_4" rx="0" ry="0" x="0" y="0" width="13" height="45">
-        </rect>
-    </svg>
-    <div id="Subheader_A0_Group_6">
-        <div id="Sztander">
-            <span>Sztander</span>
-        </div>
-    </div>
-    <svg class="ID2036281">
-        <pattern elementId="ID2036281_A0_Rectangle_9" id="ID2036281_A0_Rectangle_9_pattern" x="0" y="0" width="100%" height="100%">
-            <image x="0" y="0" width="100%" height="100%" href="ID2036281_A0_Rectangle_9_pattern.png" xlink:href="ID2036281_A0_Rectangle_9_pattern.png"></image>
-        </pattern>
-        <rect fill="url(#ID2036281_A0_Rectangle_9_pattern)" id="ID2036281" rx="22" ry="22" x="0" y="0" width="235" height="205">
-        </rect>
-    </svg>
-    <div id="Subheader_A0_Group_7">
-        <div id="ID323_5__A0_Text_7">
-            <span>323,5$</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_8">
-        <div id="M4A1">
-            <span>M4A1</span>
-        </div>
-    </div>
-    <div id="Add">
-        <span>Add</span>
-    </div>
-    <svg class="Rectangle_16">
-        <rect fill="rgba(93,188,210,1)" id="Rectangle_16" rx="0" ry="0" x="0" y="0" width="51" height="36">
-        </rect>
-    </svg>
-    <div id="Info">
-        <span>Info</span>
-    </div>
-    <div id="icon_search">
-        <svg class="icon_search_A0_Path_1" viewBox="0 0 43 43">
-            <path fill="rgba(255,255,255,1)" id="icon_search_A0_Path_1" d="M 34.13124847412109 30.18012428283691 C 36.54999542236328 26.97515296936035 37.89374542236328 23.23602485656738 37.89374542236328 18.96273231506348 C 37.89375305175781 8.54658317565918 29.5625 0 19.08124923706055 0 C 8.59999942779541 0 0 8.54658317565918 0 18.96273231506348 C 0 29.37888145446777 8.600000381469727 37.92546463012695 19.08124923706055 37.92546463012695 C 23.38124847412109 37.92546463012695 27.41249847412109 36.59005737304688 30.36874580383301 34.18633270263672 L 38.43124771118164 42.19875335693359 C 38.96874237060547 42.73291778564453 39.77499771118164 43 40.31249237060547 43 C 40.84999847412109 43 41.65624237060547 42.73291778564453 42.19374847412109 42.19875335693359 C 43.26874542236328 41.13043594360352 43.26874542236328 39.52795028686523 42.19374847412109 38.45962905883789 L 34.13124847412109 30.18012428283691 Z M 19.08124923706055 32.31676864624023 C 11.55624961853027 32.31676864624023 5.375 26.44099235534668 5.375 18.96273231506348 C 5.375 11.48447227478027 11.55624961853027 5.341614723205566 19.08124923706055 5.341614723205566 C 26.60624885559082 5.341614723205566 32.78749847412109 11.48447227478027 32.78749847412109 18.96273231506348 C 32.78749847412109 26.44099235534668 26.60624885559082 32.31676864624023 19.08124923706055 32.31676864624023 Z">
-            </path>
-        </svg>
-    </div>
-    <svg class="Rectangle_41">
-        <rect fill="rgba(255,255,255,0.341)" id="Rectangle_41" rx="23" ry="23" x="0" y="0" width="240" height="53">
-        </rect>
-    </svg>
-    <div id="Subheader_A0_Group_25">
-        <div id="Sort">
-            <span>Sort</span>
-        </div>
-    </div>
-    <svg class="Rectangle_43">
-        <rect fill="rgba(255,255,255,0.341)" id="Rectangle_43" rx="23" ry="23" x="0" y="0" width="220" height="53">
-        </rect>
-    </svg>
-    <div id="Subheader_A0_Group_26">
-        <div id="Filter">
-            <span>Filter</span>
-        </div>
-    </div>
-    <svg class="Rectangle_44">
-        <rect fill="rgba(255,255,255,0.341)" id="Rectangle_44" rx="23" ry="23" x="0" y="0" width="220" height="53">
-        </rect>
-    </svg>
-    <div id="icon_cart">
-        <svg class="icon_cart_A0_BooleanGroup_1" viewBox="0 0 56 55">
-            <path fill="rgba(255,255,255,1)" id="icon_cart_A0_BooleanGroup_1" d="M 38.54997253417969 48.12293243408203 C 38.54997253417969 44.3270149230957 41.68446350097656 41.24862289428711 45.54959106445313 41.24862289428711 C 49.41793823242188 41.24862289428711 52.55222702026367 44.3270149230957 52.55222702026367 48.12293243408203 C 52.55222702026367 51.92194747924805 49.41793823242188 55 45.54959106445313 55 C 41.68446350097656 55 38.54997253417969 51.92194747924805 38.54997253417969 48.12293243408203 Z M 3.550073623657227 48.12293243408203 C 3.550073623657227 44.3270149230957 6.684360027313232 41.24862289428711 10.5494909286499 41.24862289428711 C 14.41462135314941 41.24862289428711 17.54890823364258 44.3270149230957 17.54890823364258 48.12293243408203 C 17.54890823364258 51.92194747924805 14.41462135314941 55 10.5494909286499 55 C 6.684360027313232 55 3.550073623657227 51.92194747924805 3.550073623657227 48.12293243408203 Z M 0 37.81146621704102 L 0 30.93715476989746 L 42.91292190551758 30.93715476989746 L 47.90900421142578 13.74862289428711 L 7.049681663513184 13.74862289428711 L 7.049681663513184 6.874655723571777 L 0.05046544969081879 6.874655723571777 L 0.05046544969081879 0 L 10.5494909286499 0 C 12.48668003082275 0 14.04909896850586 1.540746450424194 14.04909896850586 3.4375 L 14.04909896850586 6.874655723571777 L 52.55222702026367 6.874655723571777 C 55.83127593994141 6.874655723571777 56.21891403198242 10.21885013580322 55.91632080078125 11.25829410552979 L 48.91690444946289 35.31769561767578 C 48.48865127563477 36.7937126159668 47.11201095581055 37.81146621704102 45.54959106445313 37.81146621704102 L 0 37.81146621704102 Z M 3.499608039855957 27.5 L 3.499608039855957 24.06318855285645 L 17.5014591217041 24.06318855285645 L 17.5014591217041 27.5 L 3.499608039855957 27.5 Z M 7.002432823181152 20.62293434143066 L 7.002432823181152 17.18577766418457 L 21.00126647949219 17.18577766418457 L 21.00126647949219 20.62293434143066 L 7.002432823181152 20.62293434143066 Z">
-            </path>
-        </svg>
-    </div>
-    <svg class="Rectangle_1469">
-        <rect fill="rgba(34,32,54,0.702)" id="Rectangle_1469" rx="12" ry="12" x="0" y="0" width="370" height="72">
-        </rect>
-    </svg>
-    <svg class="Rectangle_1470">
-        <rect fill="rgba(75,0,130,1)" id="Rectangle_1470" rx="23" ry="23" x="0" y="0" width="193" height="83">
-        </rect>
-    </svg>
-    <div id="Subheader_A0_Group_27">
-        <div id="Order">
-            <span>Order</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_28">
-        <div id="Cart">
-            <span>Cart</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_29">
-        <div id="M4A1_A0_Text_47">
-            <span>M4A1</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_30">
-        <div id="ID323_5__A0_Text_48">
-            <span>323,5$</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_31">
-        <div id="ID1">
-            <span>1</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_32">
-        <div id="Quantity_">
-            <span>Quantity:</span>
-        </div>
-    </div>
-    <svg class="Rectangle_1471">
-        <rect fill="rgba(34,32,54,1)" id="Rectangle_1471" rx="12" ry="12" x="0" y="0" width="370" height="72">
-        </rect>
-    </svg>
-    <div id="Subheader_A0_Group_33">
-        <div id="Summary_">
-            <span>Summary:</span>
-        </div>
-    </div>
-    <div id="Subheader_A0_Group_34">
-        <div id="ID323_5__A0_Text_52">
-            <span>323,5$</span>
+        <div class="col-4 p-0">
+            <div class="card bg-dark text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-warning">Add</a>
+                    <a href="#" class="btn btn-info">Info</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+@code{ 
+    List<Gun> guns = GunService.GunListCreator();
+
+    int counter = 0;
+}
+

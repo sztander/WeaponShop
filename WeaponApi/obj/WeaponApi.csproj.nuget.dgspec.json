@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponApi\\WeaponApi.csproj": {}
+    "C:\\Users\\sztander\\Source\\Repos\\WeaponShopSolutions\\WeaponApi\\WeaponApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponApi\\WeaponApi.csproj": {
+    "C:\\Users\\sztander\\Source\\Repos\\WeaponShopSolutions\\WeaponApi\\WeaponApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponApi\\WeaponApi.csproj",
+        "projectUniqueName": "C:\\Users\\sztander\\Source\\Repos\\WeaponShopSolutions\\WeaponApi\\WeaponApi.csproj",
         "projectName": "WeaponApi",
-        "projectPath": "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponApi\\WeaponApi.csproj",
+        "projectPath": "C:\\Users\\sztander\\Source\\Repos\\WeaponShopSolutions\\WeaponApi\\WeaponApi.csproj",
         "packagesPath": "C:\\Users\\sztander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sztander\\source\\repos\\WeaponShopSolutions\\WeaponApi\\obj\\",
+        "outputPath": "C:\\Users\\sztander\\Source\\Repos\\WeaponShopSolutions\\WeaponApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
