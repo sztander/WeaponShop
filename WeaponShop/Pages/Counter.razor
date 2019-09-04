@@ -1,0 +1,35 @@
+﻿@page "/counter"
+
+<BSCard CardType="CardType.Deck">
+    @foreach (string item in listaTest)
+    {
+        if (item.Contains("4"))
+        {
+            <BSCard Color="Color.Danger">
+                <BSCard CardType="CardType.Body">
+                    <BSCard CardType="CardType.Title">Nazwa w Liscie</BSCard>
+                    <BSCard CardType="CardType.Text">TO: @item</BSCard>
+                    <BSButton Class="btn btn-primary" @onclick="IncrementCount">Click me</BSButton>
+                </BSCard>
+            </BSCard>
+        }
+        <BSCard Color="Color.Dark">
+            <BSCard CardType="CardType.Body">
+                <BSCard CardType="CardType.Title">Nazwa w Liscie</BSCard>
+                <BSCard CardType="CardType.Text">TO: @item</BSCard>
+                <BSButton Class="btn btn-primary" @onclick="IncrementCount">Click me</BSButton>
+            </BSCard>
+        </BSCard>
+    }
+</BSCard>
+
+@code {
+    int currentCount = 0;
+
+    List<string> listaTest = new List<string>() { "jeden", "dwa", "trzy", "4", "piec", "6", "siedem", "8" };
+
+    void IncrementCount()
+    {
+        currentCount++;
+    }
+}
